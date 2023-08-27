@@ -1,0 +1,86 @@
+.history {
+  min-height: 50rem;
+  width: 70rem;
+  background: linear-gradient(-45deg, #670d10 0%, #092756 100%);
+  border-radius: 1rem;
+  margin: 0 auto;
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+  padding-bottom: 3rem;
+  /* Other styles for your .history component */
+}
+
+.title {
+  font-size: 2rem;
+}
+.list-tile {
+  height: 9rem;
+  width: 60rem;
+  background-color: #f2f2f2;
+  --padding-top: 1rem;
+  margin-top: 3rem;
+  margin-left: 2.6rem;
+
+  --margin: 0 auto;
+  border-radius: 1rem;
+}
+.list-content {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+}
+.row-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.id {
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding-left: 2rem;
+  margin-top: 1rem;
+}
+.sender {
+  font-size: 1.1rem;
+  margin-top: 0.3rem;
+  padding-left: 2rem;
+}
+.date {
+  font-size: 1.1rem;
+  padding-left: 0.5rem;
+}
+.sender-name {
+  font-size: 1.1rem;
+  --font-weight: bold;
+  padding-top: 3.5rem;
+  padding-right: 6rem;
+}
+.status {
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding-right: 2rem;
+  color: #ba4e62;
+  text-align: end;
+  margin-top: 1rem;
+}
+
+.status-sent {
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding-right: 2rem;
+  color: #685454;
+  text-align: end;
+  margin-top: 1rem;
+}
+.cost {
+  font-size: 1.6rem;
+  margin-top: 0.2rem;
+  font-weight: bold;
+  padding-right: 2rem;
+  text-align: end;
+}
+.pagination {
+  padding-top: 1rem;
+  padding-bottom: 6rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}

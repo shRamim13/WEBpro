@@ -1,0 +1,19 @@
+.option-bar {
+  height: 3rem;
+  background-color: #222831;
+  display: flex;
+  justify-content: space-around;
+}
+.link {
+  color: #d6d6d6;
+  text-decoration: none;
+  padding-top: 1rem;
+  font-weight: bold;
+  transition: all 0.15s ease-in;
+}
+
+.link:hover {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}

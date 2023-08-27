@@ -1,0 +1,330 @@
+.order-body {
+  background-color: #222831;
+  min-height: 160rem;
+  width: 100;
+}
+.ongoing {
+  font-size: 1.6rem;
+  color: white;
+  font-family: "Lora", serif;
+  font-weight: bold;
+  padding-top: 5rem;
+  font-family: "Pangolin", cursive;
+}
+.ongoing-container {
+  width: 60rem;
+  min-height: 30rem;
+  border: 1px solid #393e46;
+  margin: 5rem auto;
+  border-radius: 0.6rem;
+  position: relative;
+  background-color: #222831;
+  background: linear-gradient(-45deg, #670d10 0%, #092756 100%);
+}
+.ongoing-card {
+  height: 8rem;
+  width: 57rem;
+  background-color: #393e46;
+  border-radius: 0.6rem;
+  margin: 1.8rem auto;
+  --margin-right: 4rem;
+}
+.first-col {
+  display: flex;
+  padding-left: 2rem;
+  text-align: start;
+  --background-color: red;
+}
+.date-quan {
+  padding-left: 0rem;
+  color: white;
+}
+.order-number {
+  color: white;
+  font-size: 1.2rem;
+  text-align: start;
+  padding-left: 0rem;
+  padding-top: 0rem;
+  display: flex;
+  gap: 0.7rem;
+  padding-right: 2rem !important;
+}
+
+.order-id {
+  font-weight: bold;
+}
+
+.first-first-col {
+  --background-color: blue;
+}
+.ongoing-content {
+  display: flex;
+  justify-content: space-between;
+  padding: auto auto;
+  --background-color: yellow;
+}
+.order-status {
+  font-size: 1.4rem;
+  color: white;
+  padding-top: 0.3rem;
+  padding-bottom: 0.4rem;
+  padding-left: 0rem;
+  border: 1px solid #222831;
+  margin-top: 1.4rem;
+  border-radius: 0.6rem;
+  width: 8rem;
+  background-color: #393e46;
+  cursor: pointer;
+}
+.order-status:hover {
+  background-color: #00adb5;
+  cursor: pointer;
+  border: none;
+  color: #222831;
+}
+
+.order-product {
+  font-size: 1.8rem;
+  color: white;
+  padding-left: 0rem;
+  padding-top: 0rem;
+}
+.order-date {
+  color: white;
+  font-size: 1rem;
+  text-align: start;
+  padding-left: 0rem;
+  --padding-bottom: 1rem;
+  --background-color: pink;
+  padding-top: 0.4rem;
+  padding-right: 0 !important;
+}
+.order-quan {
+  font-size: 1.4rem;
+  color: white;
+  padding-left: 0rem;
+  padding-top: 0.2rem;
+}
+.order-price {
+  font-size: 1.2rem;
+  color: white;
+  padding-right: 4.3rem;
+  padding-top: 0.4rem;
+}
+.break-line {
+  border: 1px solid #393e46;
+  width: 100%;
+  --margin-top: 5rem;
+  --margin-bottom: 2rem;
+}
+.complete-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 2rem;
+  column-gap: 2rem;
+  margin: 2rem 2rem;
+  padding: auto auto;
+}
+.grid-col {
+  background-color: #393e46;
+  border-radius: 0.6rem;
+  height: 15rem;
+}
+.complete-orderId {
+  color: white;
+  font-size: 1.2rem;
+  --font-weight: bold;
+  padding-top: 0rem;
+}
+.delivery-date {
+  color: white;
+  font-size: 1rem;
+  padding-top: 0rem;
+}
+.supplier {
+  color: white;
+  font-size: 1rem;
+  padding-top: 0rem;
+}
+.complete-product {
+  color: white;
+  font-size: 1.4rem;
+  --font-weight: bold;
+  padding-top: 0rem;
+}
+.complete-price {
+  color: white;
+  font-size: 1.2rem;
+  --font-weight: bold;
+  padding-top: 0rem;
+}
+.supplier-double-button {
+  display: flex;
+  justify-content: flex-end;
+}
+.supplier-order-status {
+  font-size: 1.2rem;
+  color: white;
+  padding-top: 0.3rem;
+  padding-bottom: 0.4rem;
+  padding-left: 0rem;
+  border: 1px solid #222831;
+  margin-top: 1rem;
+  border-radius: 0.6rem;
+  width: 8rem;
+  margin-right: 2rem;
+  margin-left: 1rem;
+  background-color: #393e46;
+  cursor: pointer;
+}
+.mark-complete {
+  background-color: #393e46;
+  font-size: 1.2rem;
+  color: white;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  padding-left: 0.25rem;
+  margin-top: 1rem;
+  border-radius: 0.6rem;
+  width: 11rem;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #222831;
+  --font-family: "Lora", serif;
+}
+.supplier-order-price {
+  font-size: 1.2rem;
+  color: white;
+
+  padding-top: 0.2rem;
+  text-align: end;
+  padding-right: 2rem;
+  align-items: flex-start;
+}
+.mark-complete:hover {
+  background-color: #00adb5;
+  cursor: pointer;
+  border: none;
+  color: #222831;
+}
+.supplier-order-status:hover {
+  background-color: #00adb5;
+  cursor: pointer;
+  border: none;
+  color: #222831;
+}
+
+.supplier-request {
+  font-size: 2rem;
+  color: white;
+
+  margin-top: 2rem;
+}
+
+select {
+  --width: 100%;
+  padding: 1rem 1rem;
+  margin-left: 0rem;
+  align-items: start;
+  margin-top: 0rem;
+  display: inline-block;
+  border: 1px solid #222831;
+  border-radius: 0.6rem;
+  box-sizing: border-box;
+  background-color: #222831;
+  width: 30rem;
+  color: white;
+}
+select::hover {
+  background-color: #222831;
+}
+.row {
+  display: flex;
+}
+.service-charge {
+  background-color: #393e46;
+  border: 1px solid #222831;
+  border-radius: 0.6rem;
+  padding: 0.5rem 0.7rem 0.7rem 0.7rem;
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 0rem;
+  width: 14.2rem;
+}
+.service-charge-label {
+  --margin-left: 2rem;
+  font-size: 1.2rem;
+  padding-left: 0rem;
+  padding-bottom: 1rem;
+  padding-top: 1.6rem;
+}
+input[type="number"] {
+  background-color: #222831;
+  border: 1px solid #222831;
+  border-radius: 0.6rem;
+  padding: 1rem 1rem;
+  margin-left: 2rem;
+  width: 10rem;
+  color: white;
+}
+
+.supplier-label {
+  font-size: 1.2rem;
+  padding-left: 0rem;
+  padding-bottom: 1rem;
+  padding-top: 1.6rem;
+}
+.account-id-label {
+  font-size: 1.2rem;
+  padding-left: 0rem;
+  padding-bottom: 1rem;
+  padding-top: 1.6rem;
+}
+.supplier-content {
+  --background-color: red;
+  width: 30rem;
+  margin: 0rem auto;
+}
+.amount {
+  margin-left: 2rem;
+  font-size: 1.2rem;
+  padding-left: 0rem;
+  padding-bottom: 1rem;
+  padding-top: 1.6rem;
+}
+.supplier-checkout {
+  width: 30rem;
+  background-color: #393e46;
+  font-size: 1.2rem;
+  color: white;
+  padding-top: 0.8rem;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  text-align: center;
+  height: 3.4rem;
+  display: grid;
+  align-items: start;
+  border: 1px solid #222831;
+  margin-top: 4rem;
+}
+.supplier-checkout:hover {
+  background-color: #00adb5;
+  cursor: pointer;
+  border: none;
+  color: #222831;
+}
+.universal-modal-close {
+  background-color: #222831;
+  color: white;
+}
+
+input[type="numberr"] {
+  background-color: #222831;
+  border: 1px solid #222831;
+  border-radius: 0.6rem;
+  padding: 1rem 1rem;
+  margin-left: 0rem;
+  width: 28rem;
+  color: white;
+}

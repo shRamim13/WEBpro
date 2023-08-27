@@ -1,0 +1,144 @@
+.main {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  --padding: 5.625rem 0 5.625rem 0;
+  background-color: grey;
+  /* background-image: url("/public/image/bg.jpeg"); */
+  background-size: cover;
+  background-repeat: no repeat;
+
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  background: #092756;
+  background: -moz-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, .4) 10%, rgba(138, 114, 76, 0) 40%), -moz-linear-gradient(top, rgba(57, 173, 219, .25) 0%, rgba(42, 60, 87, .4) 100%), -moz-linear-gradient(-45deg, #670d10 0%, #092756 100%);
+  background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, .4) 10%, rgba(138, 114, 76, 0) 40%), -webkit-linear-gradient(top, rgba(57, 173, 219, .25) 0%, rgba(42, 60, 87, .4) 100%), -webkit-linear-gradient(-45deg, #670d10 0%, #092756 100%);
+  background: -o-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, .4) 10%, rgba(138, 114, 76, 0) 40%), -o-linear-gradient(top, rgba(57, 173, 219, .25) 0%, rgba(42, 60, 87, .4) 100%), -o-linear-gradient(-45deg, #670d10 0%, #092756 100%);
+  background: -ms-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, .4) 10%, rgba(138, 114, 76, 0) 40%), -ms-linear-gradient(top, rgba(57, 173, 219, .25) 0%, rgba(42, 60, 87, .4) 100%), -ms-linear-gradient(-45deg, #670d10 0%, #092756 100%);
+  background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, .4) 10%, rgba(138, 114, 76, 0) 40%), linear-gradient(to bottom, rgba(57, 173, 219, .25) 0%, rgba(42, 60, 87, .4) 100%), linear-gradient(135deg, #670d10 0%, #092756 100%);
+
+}
+
+.login-form {
+  justify-content: center;
+  height: 34.375rem;
+  width: 35%;
+  --padding: auto auto;
+  border-radius: 1rem;
+  background-color: #f5f5f5;
+}
+
+.img {
+  justify-content: center;
+  display: flex;
+  --background-color: red;
+  --height: 10rem;
+}
+
+.container-img {
+  align-items: center;
+  display: flex;
+  height: 9rem;
+  width: 9rem;
+  justify-content: center;
+}
+
+.pig-img {
+  height: 9rem;
+  width: 9rem;
+}
+
+h1 {
+  font-family: "Pangolin", cursive;
+  font-size: 3rem;
+  --line-height: 3rem;
+  color: black;
+  --background-color: yellow;
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+}
+
+.title {
+  height: 3rem;
+  width: 100%;
+  --background-color: yellow;
+  font-family: "Pangolin", cursive;
+
+  --padding-bottom: 1rem;
+}
+
+.image {
+  width: 100%;
+  background-color: red;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 0.938rem 1.25rem;
+  margin: 0.5rem 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  background-color: #ebd5d5;
+}
+
+input[type="password"] {
+  width: 70%;
+  padding: 0.938rem 1.25rem;
+  margin: 0.5rem 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  background-color: #ebd5d5;
+}
+
+.input-form {
+  padding-top: 2rem;
+}
+
+label {
+  display: block;
+  text-align: start;
+  padding-left: 5rem;
+  padding-top: 0.5rem;
+}
+
+input[type="submit"] {
+  width: 70%;
+  background-color: #ea8a8a;
+
+  color: white;
+  padding: 0.938rem 1.25rem;
+  margin: 1.875rem 0;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color: black;
+  font-size: 1rem;
+  --font-weight: bold;
+}
+
+input[type="submit"]:hover {
+  background-color: #e97575;
+  cursor: pointer;
+}
+
+.pin-Toggle-icon {
+  position: absolute;
+  top: 31.4rem;
+  right: 36.875rem;
+  z-index: 1000;
+  cursor: pointer;
+  color: black;
+}
+
+/* .password-input {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+} */

@@ -1,0 +1,123 @@
+.status-modal-bg {
+  width: 40rem;
+  height: 30rem;
+  background-color: #393e46;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 0.6rem;
+  z-index: 100;
+}
+
+.status-modal-close {
+  position: absolute;
+  left: 38rem;
+  top: 0.5rem;
+  background-color: #393e46;
+  color: #eeeeee;
+  cursor: pointer;
+}
+
+.order-details {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 1rem;
+  align-items: start;
+  margin-top: 2rem;
+}
+
+.buyer-details {
+  width: 250px;
+}
+
+.vertical-line {
+  border-left: 1px solid #818181;
+  margin: 1.2rem 1rem;
+  height: 100px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #eeeeee;
+}
+
+.hrule {
+  border: none;
+  display: inline-block;
+  border-top: 1px solid #818181;
+  margin: 10px 0;
+}
+
+.t1 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #eeeeee;
+}
+
+.t2 {
+  font-size: 14px;
+  color: #eeeeee;
+}
+
+.status-grid {
+  display: grid;
+  grid-template-columns: 2fr 0.5fr 2fr;
+  grid-template-rows: repeat(5, 1fr);
+  row-gap: 0.3rem;
+  align-items: center;
+  margin: 4rem 6rem;
+  justify-items: center;
+}
+
+.status-number {
+  height: 2.4rem;
+  border-radius: 50%;
+  width: 2.4rem;
+  background-color: #eeeeee;
+  display: flex;
+  color: #222831;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.status-number-active {
+  height: 2.4rem;
+  border-radius: 50%;
+  width: 2.4rem;
+  color: #eeeeee;
+  background-color: #00adb5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.dashed-vertical-line {
+  border-left: 7px dotted #eeeeee;
+  /* transform: translate(25%, 0); */
+  height: 30px;
+}
+
+.dashed-vertical-line-active {
+  border-left: 7px dotted #00adb5;
+  /* transform: translate(25%, 0); */
+  height: 30px;
+}
+
+.status-text {
+  color: #eeeeee;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.status-text-active {
+  color: #00adb5;
+  font-weight: 600;
+  font-size: 18px;
+}
